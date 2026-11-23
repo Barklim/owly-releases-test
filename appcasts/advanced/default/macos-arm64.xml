@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:owly="https://owly.app/xml-namespaces/releases" version="2.0">
+  <channel>
+    <title>Owly advanced / default</title>
+    <owly:edition>advanced</owly:edition>
+    <owly:profile>default</owly:profile>
+    <owly:platform>macos-arm64</owly:platform>
+    <owly:applicationId>com.owly.ai</owly:applicationId>
+  </channel>
+</rss>
