@@ -1,6 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:owly="https://owly.app/xml-namespaces/releases" version="2.0">
+<rss xmlns:owly="https://owly.app/xml-namespaces/releases" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
+    <item>
+      <title>Owly 1.0.1</title>
+      <pubDate>Mon, 23 Nov 2026 16:53:19 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+      <link>https://github.com/Barklim/owly-releases-test/releases/tag/v1.0.1</link>
+      <description>&lt;pre&gt;# 🚀 Test Release v1.0.0 (Internal / Secret Build)
+
+&amp;gt; **⚠️ ВНИМАНИЕ:** Это тестовая (предрелизная) сборка проекта. Предназначена исключительно для внутреннего тестирования и отладки. Не распространять за пределами команды.
+
+## 📌 Основная информация
+* **Версия:** `v1.0.0`
+* **Статус:** Pre-release (Тестовый билд)
+* **Окружение:** Staging / Dev (без прокси бэка и подписок)
+
+## ✨ Что нового в этой версии
+* Базовая инициализация закрытого ядра приложения.
+
+## 🐛 Известные проблемы (Known Issues)
+* Интерфейс на некоторых экранах может отображаться некорректно (в основном liquid glass).
+
+## 🛠 Установка и запуск (для тестировщиков)
+1. Скачайте архив из раздела **Assets** ниже.
+2. Распакуйте в рабочую директорию.
+3. Запустить на маке может быть проблематично в первы раз из-за gatekeeper.
+Пока нет подписи приложения, так как не заморачивался с apple account.
+Единоразово снять ограничение gatekeeper-ом, если не запустится.
+```
+xattr -d com.apple.quarantine /Applications/Owly.app
+```
+
+---
+*Сгенерировано автоматически для проверки оформления релизов.*
+&lt;/pre&gt;</description>
+      <enclosure url="https://github.com/Barklim/owly-releases-test/releases/download/v1.0.1/Owly-advanced-default-macos-arm64-1.0.1.zip" length="26244051" type="application/octet-stream" sparkle:edSignature="BLiYCZahQXRraSKg+UPAydceO4ySSl0JsF+AvJ4+Tb0hdRWEvqoxn9m2gxBlXMRKQQGiaMvGtflZtLkpehloDg==" />
+    </item>
     <title>Owly advanced / default</title>
     <owly:edition>advanced</owly:edition>
     <owly:profile>default</owly:profile>
